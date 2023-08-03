@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+	char str[100], temp;
+	int i, j = 0;
+
+	printf("Enter The String: ");
+	gets(str);
+
+	strrev(str);
+
+	printf("\nReverse a String: %s\n\n", str);
+
+	return (0);
+}
